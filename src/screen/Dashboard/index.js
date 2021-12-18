@@ -16,28 +16,28 @@ export default function Dashboard() {
             <div className="coverImage">
                 <img src="/images/maincover.jpeg" alt="" />
             </div>
-            <div className="d-flex justify-content-between w-100">
+            <div className="d-flex justify-content-between w-100 mt-5">
                 <div className="container firstLine d-flex flex-column justify-content-center align-items-center">
-                    <h2>Request Tab</h2>
+                    <h2 className="my-5">Request Tab</h2>
                     <div className="firstLineProducts d-flex">
-                        <Adcard request="/images/request.png" ourtextHeadline="" ourtext="" />
+                        <Adcard request="/images/request.png" ourtextHeadline="Description" ourtext="All the requests from public are available here" />
                     </div>
                 </div>
                 <div className="container firstLine d-flex flex-column justify-content-center align-items-center">
-                    <h2>Approved and Rejected Request</h2>
+                    <h2 className="my-5">Approved and Rejected Request</h2>
                     <div className="firstLineProducts d-flex">
-                        <Adcard request="/images/acceptreject.jpg" ourtextHeadline="" ourtext="" />
+                        <Adcard request="/images/acceptreject.jpg" ourtextHeadline="Description" ourtext="You can approve and reject requests here" />
                     </div>
                 </div>
                 <div className="container firstLine d-flex flex-column justify-content-center align-items-center">
-                    <h2>Branch Manager Tab</h2>
+                    <h2 className="my-5">Branch Manager Tab</h2>
                     <div className="firstLineProducts d-flex flex-wrap">
-                        <Adcard request="/images/branchmanager.jpg" ourtextHeadline="" ourtext="" />
+                        <Adcard request="/images/branchmanager.jpg" ourtextHeadline="Description" ourtext="Branch Manager can be made admin from here" />
                     </div>
                 </div>
             </div>
             <div className="coverImage">
-                <img src="/images/footcover.PNG" alt="" />
+                <img src="/images/footercover.jpeg" alt="" />
             </div>
         </>
     );

@@ -24,7 +24,7 @@ export default function Adcard({request, post, ourtext, ourtextHeadline}) {
                 <CardActionArea >
                     <CardMedia
                         component="img"
-                        height="140"
+                        height="250"
                         image={request}
                         alt="green iguana"
                     />
