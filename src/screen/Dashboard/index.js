@@ -1,5 +1,7 @@
 import "./App.css";
 import Adcard from "../../components/Adcard";
+import Adcardcopy from "../../components/Adcard copy";
+import Adcardcopy2 from "../../components/Adcard copy 2";
 import Navbar from "../../components/Navbar";
 import NavbarLoggedIn from "../../components/NavbarLoggedIn";
 import Navbar2 from "../../components/Navbar2";
@@ -26,13 +28,13 @@ export default function Dashboard() {
                 <div className="container firstLine d-flex flex-column justify-content-center align-items-center">
                     <h2 className="my-5">Approved and Rejected Request</h2>
                     <div className="firstLineProducts d-flex">
-                        <Adcard request="/images/acceptreject.jpg" ourtextHeadline="Description" ourtext="You can approve and reject requests here" />
+                        <Adcardcopy request="/images/acceptreject.jpg" ourtextHeadline="Description" ourtext="You can approve and reject requests here" />
                     </div>
                 </div>
                 <div className="container firstLine d-flex flex-column justify-content-center align-items-center">
                     <h2 className="my-5">Branch Manager Tab</h2>
                     <div className="firstLineProducts d-flex flex-wrap">
-                        <Adcard request="/images/branchmanager.jpg" ourtextHeadline="Description" ourtext="Branch Manager can be made admin from here" />
+                        <Adcardcopy2 request="/images/branchmanager.jpg" ourtextHeadline="Description" ourtext="Branch Manager can be made admin from here" />
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import './App.css';
 import React from "react";
 import Login from './screen/Login'
+import CreateManager from './screen/CreateManager'
 import { useState, useEffect } from 'react'
 import {
   BrowserRouter,
@@ -44,6 +45,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/home" element={<Dashboard />} />
+      <Route path="/createManager" element={<CreateManager />} />
     </Routes>
 
 

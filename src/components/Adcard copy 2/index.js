@@ -5,11 +5,15 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import { Box, ThemeProvider } from '@mui/system';
+import { useNavigate } from "react-router-dom";
 
 
 
 
 export default function Adcard({request, post, ourtext, ourtextHeadline}) {
+
+    
+    let navigate = useNavigate();
 
 
 
@@ -42,7 +46,7 @@ export default function Adcard({request, post, ourtext, ourtextHeadline}) {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button onClick="" size="small" color="primary">
+                    <Button onClick={navigate("/createManager")} size="small" color="primary">
                         Click Here
                     </Button>
                 </CardActions>
